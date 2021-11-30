@@ -3,8 +3,7 @@ const { MongoClient } = require('mongodb');
 
 
 export async function connectToDatabase() {
-  const uri =
-    'mongodb+srv://sakib:rwgw3Fr02m7YNIbl@authentication.hdnne.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+  const uri =''
 
   const client = await MongoClient.connect(uri,{ useUnifiedTopology: true } );
 
